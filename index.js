@@ -29,3 +29,15 @@ function makeInt(n) {
 function makeInt(n) {
   return parseFloat(n)
 }
+
+function makeInt(n) {
+  return parseInt('nonsense!', 10)
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
+
+function preserveDecimal(n) {
+  return parseInt('nonsense!', 10)
+}
